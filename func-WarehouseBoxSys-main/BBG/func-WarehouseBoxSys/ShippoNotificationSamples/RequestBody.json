@@ -1,0 +1,63 @@
+{
+    "data": {
+    "tracking_number": "{{tracking_number}}",
+    "carrier": "fedex",
+    "servicelevel": {
+        "name": "Priority Overnight®",
+        "token": "fedex_priority_overnight"
+    },
+    "transaction": "988699bc205847c68c02ed9537b069e5",
+    "address_from": {
+        "city": "Albany",
+        "state": "GA",
+        "zip": "",
+        "country": "US"
+    },
+    "address_to": {
+        "city": "Norcross",
+        "state": "GA",
+        "zip": "",
+        "country": "US"
+    },
+    "eta": "2024-10-02T14:30:00Z",
+    "original_eta": "2024-10-02T14:30:00Z",
+    "metadata": null,
+    "test": false,
+    "tracking_status": {
+        "status_date": "{{currentDateUtc}}",
+        "status_details": "{{Status}}",
+        "location": {
+        "city": "Norcross",
+        "state": "GA",
+        "zip": "30093",
+        "country": "US"
+        },
+        "substatus": {
+        "code": "{{SubStatus}}",
+        "text": "Package has been delivered.",
+        "action_required": false
+        },
+        "object_created": "2024-10-08T21:12:08.546Z",
+        "object_updated": "2024-10-08T21:12:08.546Z",
+        "object_id": "4e00f867c1654babaca8e13df84438dd",
+        "status": "PRE_TRANSIT"
+    },
+    "tracking_history": [
+        {
+        "status_date": "2024-09-23T17:03:41Z",
+        "status_details": "Shipment information sent to FedEx",
+        "location": null,
+        "substatus": {
+            "code": "information_received",
+            "text": "Information about the package received.",
+            "action_required": false
+        },
+        "object_created": "2024-09-23T17:03:41.919Z",
+        "object_updated": "2024-10-08T21:12:08.543Z",
+        "object_id": "64373fcf4c6647159eb06ab657c9edc3",
+        "status": "PRE_TRANSIT"
+      }
+    ],
+    "messages": []
+    }
+}

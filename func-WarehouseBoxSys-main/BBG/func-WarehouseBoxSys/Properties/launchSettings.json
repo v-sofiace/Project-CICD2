@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "func_WarehouseBoxSys": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7278",
+      "launchBrowser": false
+    }
+  }
+}
