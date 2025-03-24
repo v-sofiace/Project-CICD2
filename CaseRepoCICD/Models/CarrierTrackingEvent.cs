@@ -5,12 +5,12 @@ namespace func_WarehouseBoxSys.Models
     public class CarrierTrackingEvent
     {
         [JsonPropertyName("event")]
-        public string Event { get; set; }
+        public required string Event { get; set; }
 
         [JsonPropertyName("test")]
-        public bool Test { get; set; }
+        public required bool Test { get; set; }
 
         [JsonPropertyName("data")]
-        public TrackEventData Data { get; set; }
+        public required TrackEventData Data { get; set; }
     }
 }

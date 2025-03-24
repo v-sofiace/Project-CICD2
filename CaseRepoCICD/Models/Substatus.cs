@@ -5,12 +5,12 @@ namespace func_WarehouseBoxSys.Models
     public class Substatus
     {
         [JsonPropertyName("code")]
-        public string Code { get; set; }
+        public required string Code { get; set; }
 
         [JsonPropertyName("text")]
-        public string Text { get; set; }
+        public required string Text { get; set; }
 
         [JsonPropertyName("action_required")]
-        public bool ActionRequired { get; set; }
+        public required bool ActionRequired { get; set; }
     }
 }

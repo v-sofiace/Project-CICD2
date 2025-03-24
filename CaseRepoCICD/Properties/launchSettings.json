@@ -1,8 +1,8 @@
 {
   "profiles": {
-    "CaseRepoCICD": {
+    "func_WarehouseBoxSys": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7079",
+      "commandLineArgs": "--port 7278",
       "launchBrowser": false
     }
   }
